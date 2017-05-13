@@ -15,6 +15,7 @@ options(tibble.print_min = 5, tibble.print_max = 5)
 
 
 # farsCS 
+[![Build Status](https://travis-ci.org/clems/farsCS.svg?branch=master)](https://travis-ci.org/clems/farsCS)
 
 
 ## Overview
