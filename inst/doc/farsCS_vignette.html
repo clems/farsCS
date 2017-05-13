@@ -17,44 +17,6 @@
 
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-</style>
 
 
 
@@ -81,26 +43,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h3>Main functions</h3>
 <p>farsCS package gives some function to easily access and manipulate FARS data:</p>
 <ul>
-<li>fars_summarize_years returns Returns a month/year table with the number of fatalities for each month of each year.</li>
-</ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">fars_summarize_years</span>(<span class="dv">2013</span><span class="op">:</span><span class="dv">2015</span>)</code></pre></div>
-<pre><code>## # A tibble: 12 × 4
-##    MONTH `2013` `2014` `2015`
-## *  &lt;int&gt;  &lt;int&gt;  &lt;int&gt;  &lt;int&gt;
-## 1      1   2230   2168   2368
-## 2      2   1952   1893   1968
-## 3      3   2356   2245   2385
-## 4      4   2300   2308   2430
-## 5      5   2532   2596   2847
-## 6      6   2692   2583   2765
-## 7      7   2660   2696   2998
-## 8      8   2899   2800   3016
-## 9      9   2741   2618   2865
-## 10    10   2768   2831   3019
-## 11    11   2615   2714   2724
-## 12    12   2457   2604   2781</code></pre>
-<ul>
-<li>fars_map_state plots fatalities on a map for a state in a given year</li>
+<li><code>fars_summarize_years</code> returns Returns a month/year table with the number of fatalities for each month of each year.</li>
+<li><code>fars_map_state</code> plots fatalities on a map for a state in a given year</li>
 </ul>
 </div>
 </div>

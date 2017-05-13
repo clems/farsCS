@@ -23,12 +23,6 @@ The  **farsCS** package provides easy summary statistics and plotting functions 
 
 farsCS package gives some function to easily access and manipulate FARS data:
 
-* fars_summarize_years returns Returns a month/year table with the number of fatalities for each month of each year.
-
-
-```{r fars}
-fars_summarize_years(2013:2015)
-```
-
-* fars_map_state plots fatalities on a map for a state in a given year
+* `fars_summarize_years` returns Returns a month/year table with the number of fatalities for each month of each year.
+* `fars_map_state` plots fatalities on a map for a state in a given year
 
