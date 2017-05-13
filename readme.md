@@ -8,6 +8,7 @@ output: github_document
 
 
 # farsCS 
+[![Build Status](https://travis-ci.org/clems/farsCS.svg?branch=master)](https://travis-ci.org/clems/farsCS)
 
 
 ## Overview
