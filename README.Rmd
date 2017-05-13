@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+options(tibble.print_min = 5, tibble.print_max = 5)
+```
+
+
+# farsCS 
+
+
+## Overview
+
+farsCS package gives some function to easily access and manipulate FARS data:
+
+* `fars_summarize_years` returns Returns a month/year table with the number of fatalities for each month of each year.
+* `fars_map_state` plots fatalities on a map for a state in a given year
+
+## Installation
+
+```{r, eval = FALSE}
+# Install the package as usual:
+install.packages("dplyr")
+```
+
+## Examples
+
+```{r, message = FALSE}
+library(farsCS)
+
+fars_summarize_years(2013:2015)
+```
+```

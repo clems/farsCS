@@ -1,0 +1,34 @@
+---
+title: "Model Details for farsCS"
+author: "Clement Schaff"
+date: "27 avril 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Model Details for farsCS}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VinetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## FARS DATA
+
+FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes. For more detail on FARS data,  <https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars>.
+
+The  **farsCS** package provides easy summary statistics and plotting functions to deal with fars data. 
+
+### Main functions
+
+farsCS package gives some function to easily access and manipulate FARS data:
+
+* `fars_summarize_years` returns Returns a month/year table with the number of fatalities for each month of each year.
+
+
+```{r fars}
+fars_summarize_years(2013:2015)
+```
+
+* `fars_map_state` plots fatalities on a map for a state in a given year
+

@@ -1,0 +1,25 @@
+Package: farsCS
+Type: Package
+Title: FARS data analysis
+Version: 0.1.0
+Date: 2017-4-27
+Depends: R (>= 3.0.1)
+Imports: 
+    magrittr, 
+    maps, 
+    dplyr, 
+    tidyr, 
+    readr,
+    graphics
+Suggests: 
+    knitr, 
+    rmarkdown,
+    testthat
+Author: Clement Schaff
+Maintainer: The package maintainer <clement.schaff@gmail.com>
+Description: Final assignemnt for Coursera "building an R package". 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
